@@ -38,22 +38,12 @@
     transform: scale(1.15); 
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.container-games{
-    width: 150vh;
-}
-
-.main-customers {
-    background-color: transparent;
-}
-
 .bg-image{
     background-image: url('../images/IslaGamesBanner2.png');
-    background-size: 100%;
+    background-size: cover;
     height: 100vh;
+    min-height: 100vh;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
