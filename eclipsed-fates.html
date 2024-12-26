@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isla Games Website</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="fonts/bootstrap-icons.css">
+    <title>EclipsedFates</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/eclipsedfates.css">
+    <link rel="stylesheet" href="/fonts/bootstrap-icons.css">
 </head>
 <body>
     <main>
         <nav class="navbar navbar-expand-lg w-100">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/IslaGamesLogo.png" alt="IslaGamesLogo" class="d-inline-block align-text-top" width="70">
+                    <img src="/images/IslaGamesLogo.png" alt="IslaGamesLogo" class="d-inline-block align-text-top" width="70">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
                     aria-controls="offcanvasMenu">
@@ -22,8 +22,8 @@
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
                     <div class="offcanvas-header">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="images/IslaGamesLogo.png" alt="IslaGamesLogo" class="navbar-logo-min">
+                        <a class="navbar-brand" href="/index.html">
+                            <img src="/images/IslaGamesLogo.png" alt="IslaGamesLogo" class="navbar-logo-min">
                         </a>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
@@ -64,8 +64,8 @@
                                     <i class="bi bi-globe2"></i>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                    <li><a class="dropdown-item" href="index.html" data-lang="en">English</a></li>
-                                    <li><a class="dropdown-item" href="spanish/index.html" data-lang="es">Español</a></li>
+                                    <li><a class="dropdown-item" href="eclipsed-fates.html" data-lang="en">English</a></li>
+                                    <li><a class="dropdown-item" href="/spanish/eclipsed-fates.html" data-lang="es">Español</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -74,34 +74,47 @@
             </div>
         </nav>
 
-        <div class="bg-image d-flex  align-items-center">
-            <div class="islagames-text text-white">
-                <h1 class="display-4 fw-bold lh-1">ISLA GAMES STUDIO</h1>
-                <p class="lead">Isla Games Studio is an Argentine company where we create unique video games with cutting-edge technology. We design incredible worlds and unforgettable adventures, combining passion, creativity, and emotion to provide unique experiences.</p>
+        <div class="bg-eclipsed-image d-flex  align-items-center"></div>
+
+        <div class="px-4 py-5 my-5 text-center game-description">
+            <h3 class="display-6 fw-bold game-description-h1">Embark on a gripping journey in "Eclipsed Fates," a 2D top-down action and strategy game set in a desolate laboratory. Armed with a directional flashlight, navigate shadow-infested rooms, surviving mutated threats and unveiling a web of secrets in the darkness</h3>
+        </div>
+
+        <div class="container px-4 py-5" id="featured-3">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <h3 class="fs-2 game-data-h3">RELEASE YEAR</h3>
+                    <p class="game-data-p">2022</p>
+                </div>
+                <div class="feature col">
+                    <h3 class="fs-2 game-data-h3">GENRES</h3>
+                    <p class="game-data-p">Survival Horror</p>
+                </div>
+                <div class="feature col">
+                    <h3 class="fs-2 game-data-h3">PLATAFORMS</h3>
+                    <p class="game-data-p"><a class="game-data-p-a" href="https://github.com/SimM20/IslaGamesStudioWeb/raw/refs/heads/main/games/EclipsedFates%20(Windows).zip" download="EclipsedFates (Windows).zip">Eclipsed Fates (Windows)</a> <br> <a class="game-data-p-a" href="URL_DEL_ARCHIVO" download="EclipsedFates(MacOS).zip">Eclipsed Fates (MacOS)</a></p>
+                </div>
             </div>
         </div>
 
-        <div class="px-4 py-5 my-5 text-center container-games">
-            <div class="position-relative d-inline-block">
-                <div class="px-4 py-5 my-5 text-center shadow-lg main-customers">
-                    <h3 class="display-7 fw-bold text-body-emphasis">OUR GAMES</h3>
-                    <div class="col-lg-9 mx-auto">
-                        <div class="row justify-content-center customers-icons-column">
-                            <a class="col-6 col-md-3 mb-3" href="https://isla-games-studio.itch.io/eclipsed-fates">
-                                <div>
-                                    <img src="images/EclipsedLogo.png" alt="Logo Eclipsed Fates"
-                                        class="img-fluid logo-grayscale">
-                                </div>
-                            </a>
-                            <a class="col-6 col-md-3 mb-3" href="https://isla-games-studio.itch.io/eclipsed-fates">
-                                <div>
-                                    <img src="images/Application.ico" alt="Logo Horizon" class="img-fluid logo-grayscale">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                            <a href="#" class="btn btn-dark btn-lg px-4 gap-3">More</a>
-                        </div>
+        <div class="album py-5">
+            <div class="container">
+                <h3 class="album-container-text">SCREENSHOOTS</h3>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+                    <div class="col col-images">
+                        <img src="/images/EclipsedFatesbg.png" alt="" width="100%" height="225">
+                    </div>
+                    <div class="col col-images">
+                        <img src="/images/EclipsedFatesbg.png" alt="" width="100%" height="225">
+                    </div>
+                    <div class="col col-images">
+                        <img src="/images/EclipsedFatesbg.png" alt="" width="100%" height="225">
+                    </div>
+                    <div class="col col-images">
+                        <img src="/images/EclipsedFatesbg.png" alt="" width="100%" height="225">
+                    </div>
+                    <div class="col col-images">
+                        <img src="/images/EclipsedFatesbg.png" alt="" width="100%" height="225">
                     </div>
                 </div>
             </div>
@@ -110,7 +123,7 @@
 
     <footer class="footer mt-auto py-4 bg-dark text-white">
         <div class="container text-center text-md-left">
-            <img src="images/IslaGamesLogo.png" alt="IslaGamesLogo" class="footer-logo mb-3" width="70">
+            <img src="/images/IslaGamesLogo.png" alt="IslaGamesLogo" class="footer-logo mb-3" width="70">
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <a href="https://x.com/" target="_blank"><i class="bi bi-twitter-x"></i></a>
@@ -132,6 +145,6 @@
         </div>
     </footer>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
