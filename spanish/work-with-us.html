@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isla Games Website</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/work-with-us.css">
+    <link rel="stylesheet" href="../fonts/bootstrap-icons.css">
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg w-100">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../images/IslaGamesLogo.png" alt="IslaGamesLogo" class="d-inline-block align-text-top" width="70">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+                    aria-controls="offcanvasMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+                    <div class="offcanvas-header">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="../images/IslaGamesLogo.png" alt="IslaGamesLogo" class="navbar-logo-min">
+                        </a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body justify-content-end">
+                        <ul class="navbar-nav gap-5">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                    JUEGOS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="eclipsed-fates.html">Eclipsed Fates</a></li>
+                                    <li><a class="dropdown-item" href="horizon.html">Horizon</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                    NOSOTROS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Tecnología</a></li>
+                                    <li><a class="dropdown-item" href="#">Compañia</a></li>
+                                    <li><a class="dropdown-item" href="#">Estudio</a></li>
+                                    <li><a class="dropdown-item" href="#">Compromisos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                    CONTACTO
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Ayuda</a></li>
+                                    <li><a class="dropdown-item" href="#">Foro</a></li>
+                                    <li><a class="dropdown-item" href="work-with-us.html">Empleo</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button">
+                                    <i class="bi bi-globe2"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                                    <li><a class="dropdown-item" href="../work-with-us.html" data-lang="en">English</a></li>
+                                    <li><a class="dropdown-item" href="work-with-us.html" data-lang="es">Español</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="bg-image d-flex  align-items-center">
+            <div class="islagames-text text-white">
+                <form>
+                    <div class="form-row">
+                        <h2 class="pb-3 border-bottom my-5">Trabaja con nosotros</h2>
+                        <div class="row my-4">
+                            <div class="col">
+                                <label>Nombre</label>
+                                <input type="text" class="form-control" id="inputFirstName" placeholder="Primer nombre">
+                            </div>
+                            <div class="col">
+                                <label>Apellino</label>
+                                <input type="text" class="form-control" id="inputLastName" placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="col my-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="you@example.com">
+                        </div>
+                        <div class="form-group col-md-6 my-4">
+                            <label>Portfolio</label>
+                            <input type="text" class="form-control" id="inputPortfolio" placeholder="linkedin.com/in/user">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary my-4">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-auto py-4 bg-dark text-white">
+        <div class="container text-center text-md-left">
+            <img src="images/IslaGamesLogo.png" alt="IslaGamesLogo" class="footer-logo mb-3" width="70">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <a href="https://x.com/" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.twitch.tv/" target="_blank"><i class="bi bi-twitch"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <br>
+                    <p>Zapata 359, Buenos Aires, Argentina</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="tel:+542966641728"><strong>Teléfono:</strong> (+54) 2966641728</a>
+                    <br>
+                    <a href="mailto:simon.moraleslozano@live.com">simon.moraleslozano@live.com</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <p>&copy; 2024 Isla Games Studio.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
