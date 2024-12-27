@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     overflow-x: hidden;
-    background-color: #000000;
+    background-color: #050414;
 }
 
 .navbar {
@@ -74,7 +74,7 @@ body {
 }
 
 .bg-eclipsed-image{
-    background-image: url("../images/EclipsedFatesbgname.png");
+    background-image: url("../images/HorizonBannername.png");
     background-size: cover;
     height: 100vh;
     min-height: 100vh;
@@ -92,7 +92,7 @@ body {
 }
 
 .game-data-h3 {
-    color: red;
+    color: #282b60;
     text-align: center;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 .album-container-text {
-    color: red;
+    color: #282b60;
     font-size: 1.5em;
     margin-bottom: 5%;
 }
