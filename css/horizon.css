@@ -88,7 +88,7 @@ body {
 }
 
 .game-description-p {
-    color: white;;
+    color: white;
 }
 
 .game-data-h3 {
@@ -99,6 +99,7 @@ body {
 .game-data-p {
     color: white;
     text-align: center;
+    font-size: 20px;
 }
 
 .game-data-p-a {
@@ -108,7 +109,7 @@ body {
 
 .album-container-text {
     color: #282b60;
-    font-size: 1.5em;
+    font-size: 1.65em;
     margin-bottom: 5%;
 }
 
